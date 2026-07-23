@@ -1,12 +1,12 @@
 name: Bug report
-description: Report a bug or a critical gap in an existing feature of the Editor Automation plugin.
+description: Report a bug or a critical gap in an existing feature of the PinWright plugin.
 labels: ["type/bug", "status/needs-triage"]
 body:
   - type: markdown
     attributes:
       value: |
         For **new or extra feature ideas**, use
-        [Discussions → Ideas](https://github.com/editor-automation-mcp/editor-automation-ue-support/discussions/new?category=ideas)
+        [Discussions → Ideas](https://github.com/PinWright/pinwright-ue-support/discussions/new?category=ideas)
         instead. This form is for bugs and critical gaps in features that already exist.
   - type: dropdown
     id: type
@@ -41,7 +41,7 @@ body:
     id: version
     attributes:
       label: Plugin version
-      description: From the plugin's .uplugin VersionName (e.g. 0.3.0).
+      description: From the plugin's .uplugin VersionName (e.g. 0.4.0).
     validations:
       required: true
   - type: input
@@ -55,7 +55,7 @@ body:
     id: os
     attributes:
       label: Operating system
-      placeholder: "Windows 11 / macOS 14 / Ubuntu 22.04"
+      placeholder: "Windows 11 (the plugin currently supports Windows only)"
     validations:
       required: false
   - type: textarea

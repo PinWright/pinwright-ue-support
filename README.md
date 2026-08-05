@@ -8,6 +8,8 @@ Support tracker for the **PinWright** Unreal Engine plugin (formerly Editor Auto
 
 There is no plugin source in this repository. It is where support happens, and it is the only support channel.
 
+Supported engines: **Unreal Engine 5.3 – 5.8, Windows only.**
+
 ## Try the free demo
 
 The free demo edition ships on the **[latest release](https://github.com/PinWright/pinwright-ue-support/releases/latest)** - one Windows zip per Unreal Engine version (5.3 through 5.8). Unzip the `PinWright` folder into your project's `Plugins\` directory (or the engine's `Plugins\Marketplace\`), enable it, and connect your agent from the in-editor **PinWright Setup** screen. The demo allows 200 project-changing calls per day; read-only calls are unlimited. The [full version on Fab](https://www.fab.com/listings/d9caf916-e5cf-435e-ab0e-a74cb8dcb253) has no cap and includes source.
@@ -17,8 +19,11 @@ The free demo edition ships on the **[latest release](https://github.com/PinWrig
 | What | Where |
 |---|---|
 | A bug, or a critical gap in an existing feature | [Open an Issue](https://github.com/PinWright/pinwright-ue-support/issues/new?template=bug_report.yml) |
+| The plugin will not install, load, or run on your engine | [Open a compatibility report](https://github.com/PinWright/pinwright-ue-support/issues/new?template=compatibility_report.yml) |
 | A feature idea | [Discussions → Ideas](https://github.com/PinWright/pinwright-ue-support/discussions/new?category=ideas) (votable) |
 | An install or usage question | [Discussions → Q&A](https://github.com/PinWright/pinwright-ue-support/discussions/categories/q-a) |
+
+Reports usually get a first response within two business days. That is a target rather than a guarantee — replies can take longer around holidays and engine releases.
 
 ## Filing a good bug report
 
